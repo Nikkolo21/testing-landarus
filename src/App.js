@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { Github } from 'lucide-react';
 
 function App() {
   return (
     <div className="App">
+      <Github size={24} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
